@@ -29,7 +29,7 @@ const ChatInterface = () => {
     
     try {
       // Send message to backend API
-      const response = await fetch('http://13.235.85.242:8001/api/chat', {
+      const response = await fetch('https://api.pranavsaluja.in/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
