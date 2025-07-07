@@ -29,7 +29,7 @@ const ChatInterface = () => {
     
     try {
       // Send message to backend API
-      const response = await fetch('https://personachatbot.onrender.com/api/chat', {
+      const response = await fetch('http://13.235.85.242:8001/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
